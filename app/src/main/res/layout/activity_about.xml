@@ -300,7 +300,7 @@
                                 android:layout_marginStart="8dp"
                                 android:paddingHorizontal="8dp"
                                 android:gravity="center"
-                                android:text="Contributor"
+                                android:text="@string/zitsuin_role"
                                 android:fontFamily="@font/misans"
                                 android:textColor="@color/on_primary"
                                 android:textSize="9sp"

@@ -165,7 +165,7 @@ import okhttp3.OkHttpClient;
         closeLauncherRestartAfterFirstDraw();
         setupNavBar();
         setupManagersAndHandlers();
-        new GithubReleaseUpdater(this, "ppqlsmskq", "LeviLaunchroidModded", permissionResultLauncher).checkUpdateOnLaunch();
+        new GithubReleaseUpdater(this, "ppqlsmnskq", "LeviLaunchroidModded", permissionResultLauncher).checkUpdateOnLaunch();
         showEulaIfNeeded();
         setupOnBackPressedCallback();
 

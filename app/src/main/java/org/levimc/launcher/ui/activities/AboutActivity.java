@@ -66,12 +66,12 @@ public class AboutActivity extends BaseActivity {
                 maintainerBadge.setTextColor(android.graphics.Color.WHITE);
             }
         }
-    }
-    
+
                 if (zitsuinBadge != null) {
                 zitsuinBadge.setBackground(gd);
                 zitsuinBadge.setTextColor(android.graphics.Color.WHITE);
             }
+    }
 
     private void setupNavBar() {
         setActiveNavTab(R.id.nav_tab_about);

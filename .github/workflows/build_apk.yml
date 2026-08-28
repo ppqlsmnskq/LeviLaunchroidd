@@ -58,7 +58,7 @@ jobs:
         run: |
           VERSION=$(git describe --tags --abbrev=0 2>/dev/null | sed 's/^v//' || true)
           if [ -z "$VERSION" ]; then
-            VERSION="1.5.14"
+            VERSION="1.5.16"
           fi
           echo "BUILD_VERSION=$VERSION" >> $GITHUB_ENV
       - name: Build Release APK
